@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "type": "cppdbg",
+      "request": "launch",
+      "name": "Launch tsv2avor",
+      "program": "${workspaceFolder}/target/debug/${input:executableName}",
+      "args": [
+        "${workspaceFolder}/sql_logs.tsv",
+        "${workspaceFolder}/sql_logs.avro"
+      ],
+      "stopAtEntry": true,
+      "cwd": "${workspaceFolder}"
+    }
+  ],
+  "inputs": [
+    {
+      "type": "promptString",
+      "id": "executableName",
+      "description": "Name of your executable"
+    }
+  ]
+}
