@@ -7,7 +7,7 @@
       "program": "${workspaceFolder}/target/debug/${input:executableName}",
       "args": [
         "${workspaceFolder}/sql_logs.tsv",
-        "${workspaceFolder}/sql_logs.avro"
+        "${workspaceFolder}/sql_logs.avor"
       ],
       "stopAtEntry": true,
       "cwd": "${workspaceFolder}"
